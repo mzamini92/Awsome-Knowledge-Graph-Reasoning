@@ -13,6 +13,8 @@
 *  [*AAAI-2019*](#aaai-2019)
 * [**2018**](#2018-papers)  
 *  [*AAAI-2018*](#aaai-2018)
+*  [*EMNLP-2020*](#emnlp-2018)
+
 # 2022 Papers
 ## *AAAI-2022*:
 * [**TempoQR: Temporal Question Reasoning over Knowledge Graphs**](https://ojs.aaai.org/index.php/AAAI/article/view/20526/20285): TempoQR is a comprehensive embedding-based framework for answering complex questions involving temporal information over Temporal Knowledge Graphs (TKGs). It generates question-specific time embeddings and combines them with entity and context-aware information to ground the question to the specific entities and time scope it refers to. A transformer-based encoder then fuses this temporal information with the question representation for answer predictions. TempoQR was found to significantly improve accuracy and generalize better to unseen question types compared to state-of-the-art approaches.
