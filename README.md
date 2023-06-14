@@ -3,6 +3,7 @@
   - [*NIPS-2022*](#nips-2022)
   - [*AAAI-2022*](#aaai-2022)
   -  [*ICLR-2022*](#iclr-2022)
+
 * [**2021**](#2021-papers) 
   - [*NIPS-2021*](#nips-2021)
   -  [*AAAI-2021*](#aaai-2021)
@@ -22,7 +23,7 @@
   -  [*EMNLP-2018*](#emnlp-2018)
 
 # 2022 Papers
-## *NIPS-2022*:
+## *NIPS-2022*
 * [**Learning to Sample and Aggregate: Few-shot Reasoning over Temporal Knowledge Graphs**](https://papers.nips.cc/paper_files/paper/2022/file/6b295b08549c0441914e391651423477-Paper-Conference.pdf)
 In this paper, we investigate a realistic but underexplored problem, called few-shot temporal knowledge graph reasoning, that aims to predict future facts for newly emerging entities based on extremely limited observations in evolving graphs. It offers practical value in applications that need to derive instant new knowledge about new entities in temporal knowledge graphs (TKGs) with minimal supervision. The challenges mainly come from the few-shot and time shift properties of new entities. First, the limited observations associated with them are insufficient for training a model from scratch. Second, the potentially dynamic distributions from the initially observable facts to the future facts ask for explicitly modeling the evolving characteristics of new entities. We correspondingly propose a novel Meta Temporal Knowledge Graph Reasoning (MetaTKGR) framework. Unlike prior work that relies on rigid neighborhood aggregation schemes to enhance low-data entity representation, MetaTKGR dynamically adjusts the strategies of sampling and aggregating neighbors from recent facts for new entities, through temporally supervised signals on future facts as instant feedback. Besides, such a meta temporal reasoning procedure goes beyond existing meta-learning paradigms on static knowledge graphs that fail to handle temporal adaptation with large entity variance. We further provide a theoretical analysis and propose a temporal adaptation regularizer to stabilize the meta temporal reasoning over time. Empirically, extensive experiments on three real-world TKGs demonstrate the superiority of MetaTKGR over eight state-of-the-art baselines by a large margin.
 
