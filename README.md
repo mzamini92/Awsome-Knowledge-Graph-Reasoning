@@ -1,5 +1,6 @@
 # Awsome-Knowledge-Graph-Reasoning 
 * [**2022**](#2022-papers)
+  - [*NIPS-2022*](#nips-2022)
   - [*AAAI-2022*](#aaai-2022)
   -  [*ICLR-2022*](#iclr-2022)
 * [**2021**](#2021-papers) 
@@ -21,6 +22,11 @@
   -  [*EMNLP-2018*](#emnlp-2018)
 
 # 2022 Papers
+## *NIPS-2022*:
+* [**Learning to Sample and Aggregate: Few-shot Reasoning over Temporal Knowledge Graphs**](https://papers.nips.cc/paper_files/paper/2022/file/6b295b08549c0441914e391651423477-Paper-Conference.pdf)
+In this paper, we investigate a realistic but underexplored problem, called few-shot temporal knowledge graph reasoning, that aims to predict future facts for newly emerging entities based on extremely limited observations in evolving graphs. It offers practical value in applications that need to derive instant new knowledge about new entities in temporal knowledge graphs (TKGs) with minimal supervision. The challenges mainly come from the few-shot and time shift properties of new entities. First, the limited observations associated with them are insufficient for training a model from scratch. Second, the potentially dynamic distributions from the initially observable facts to the future facts ask for explicitly modeling the evolving characteristics of new entities. We correspondingly propose a novel Meta Temporal Knowledge Graph Reasoning (MetaTKGR) framework. Unlike prior work that relies on rigid neighborhood aggregation schemes to enhance low-data entity representation, MetaTKGR dynamically adjusts the strategies of sampling and aggregating neighbors from recent facts for new entities, through temporally supervised signals on future facts as instant feedback. Besides, such a meta temporal reasoning procedure goes beyond existing meta-learning paradigms on static knowledge graphs that fail to handle temporal adaptation with large entity variance. We further provide a theoretical analysis and propose a temporal adaptation regularizer to stabilize the meta temporal reasoning over time. Empirically, extensive experiments on three real-world TKGs demonstrate the superiority of MetaTKGR over eight state-of-the-art baselines by a large margin.
+
+
 ## *AAAI-2022*:
 * [**TempoQR: Temporal Question Reasoning over Knowledge Graphs**](https://ojs.aaai.org/index.php/AAAI/article/view/20526/20285): TempoQR is a comprehensive embedding-based framework for answering complex questions involving temporal information over Temporal Knowledge Graphs (TKGs). It generates question-specific time embeddings and combines them with entity and context-aware information to ground the question to the specific entities and time scope it refers to. A transformer-based encoder then fuses this temporal information with the question representation for answer predictions. TempoQR was found to significantly improve accuracy and generalize better to unseen question types compared to state-of-the-art approaches. [CODE](https://github.com/cmavro/TempoQR)
 
