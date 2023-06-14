@@ -1,8 +1,8 @@
 # Awsome-Knowledge-Graph-Reasoning 
 * [**2022**](#2022-papers)
-  - [*NIPS-2022*](#nips-2022)
+  - [*NIPS-2022*](#NIPS-2022)
   - [*AAAI-2022*](#aaai-2022)
-  - [*EMNLP-2022*](#emnlp-2022)
+  - [*EMNLP-2022*](#EMNLP-2022)
   -  [*ICLR-2022*](#iclr-2022)
 
 * [**2021**](#2021-papers) 
